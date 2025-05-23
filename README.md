@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Python-3.12.7-blue?style=flat-square&logo=python" /> 
   <img src="https://img.shields.io/badge/TensorFlow-DeepLearning-orange?style=flat-square&logo=tensorflow" /> 
   <img src="https://img.shields.io/badge/Project%20Type-TimeSeries-blueviolet?style=flat-square" /> 
-  <img src="https://img.shields.io/badge/Model-LSTM%20%7C%20Transformer-green?style=flat-square" /> 
+  <img src="https://img.shields.io/badge/Model-LSTM%20%7C%20Transformer-black?style=flat-square" /> 
 </div>
 
 ## 📝 Project Summary
@@ -83,7 +83,7 @@ electricity demand, enabling better energy management and grid stability.
 
 ### Multi-step Forecast Plot
 
-<p align="center"> <img src="assets/multistep_forecast.png" alt="Multi-step Forecast" width="700"> </p>
+<p align="center"> <img src="Multi-step forecast.png" alt="Multi-step Forecast" width="700"> </p>
 
 
 
@@ -93,7 +93,7 @@ electricity demand, enabling better energy management and grid stability.
 
 ### Training and Validation Loss
 
-<p align="center"> <img src="assets/loss_curves.png" alt="Loss Curves" width="700"> </p>
+<p align="center"> <img src="Training and Validation Loss.png" alt="Loss Curves" width="700"> </p>
 
 
 
@@ -132,7 +132,10 @@ Backend prediction uses saved .keras model weights and MinMaxScaler for consiste
 
 📷 Streamlit App Screenshot
 
-<div align="center"> <img src="your_screenshot_filename.png" alt="Streamlit App Screenshot" width="600"/> </div>
+<div align="center"> <img src="LSTM Model Prediction.png" alt="Streamlit App Screenshot" width="600"/> </div>
+
+
+<div align="center"> <img src="Transformer Model Prediction.png" alt="Streamlit App Screenshot" width="600"/> </div>
 
 ⚠️ The live deployment is not hosted online. However, the Streamlit code is fully functional and can be run locally.
 
