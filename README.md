@@ -1,6 +1,11 @@
 # Multi-Step Electricity Demand Forecasting Using LSTM and Transformer Networks
 ⚡ Multi-Step Electricity Demand Forecasting Using LSTM and Transformer Networks
-<div align="center"> <img src="https://img.shields.io/badge/Python-3.10-blue?style=flat-square&logo=python" /> <img src="https://img.shields.io/badge/TensorFlow-DeepLearning-orange?style=flat-square&logo=tensorflow" /> <img src="https://img.shields.io/badge/Project%20Type-TimeSeries-blueviolet?style=flat-square" /> <img src="https://img.shields.io/badge/Model-LSTM%20%7C%20Transformer-green?style=flat-square" /> </div>
+<div align="center"> 
+  <img src="https://img.shields.io/badge/Python-3.12.7-blue?style=flat-square&logo=python" /> 
+  <img src="https://img.shields.io/badge/TensorFlow-DeepLearning-orange?style=flat-square&logo=tensorflow" /> 
+  <img src="https://img.shields.io/badge/Project%20Type-TimeSeries-blueviolet?style=flat-square" /> 
+  <img src="https://img.shields.io/badge/Model-LSTM%20%7C%20Transformer-green?style=flat-square" /> 
+</div>
 
 📝 Project Summary
       This project focuses on multi-step forecasting of electricity consumption using deep learning models such as LSTM (Long Short-Term Memory) and Transformer networks. It leverages hourly power grid data, including features like solar, wind, nuclear, coal, and biomass generation to predict the next 6 hours of electricity demand, enabling better energy management and grid stability.
@@ -41,7 +46,7 @@
    Metric	     LSTM Model	     Transformer Model
     R²	         0.8539	            0.8658
     MAE	         0.0405           	0.0380
-    RMSE	       0.0576             0.0552
+    RMSE	         0.0576               0.0552
 
 📊 Visualizations
 Multi-step Forecast Plot
