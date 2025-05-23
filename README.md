@@ -12,9 +12,7 @@
 ## 📝 Project Summary
 
 ✅  This project focuses on multi-step forecasting of electricity consumption using deep learning models such as LSTM (Long Short-Term Memory) and Transformer 
-
-networks. It leverages hourly power grid data, including features like solar, wind, nuclear, coal, and biomass generation to predict the next 6 hours of 
-
+networks.It leverages hourly power grid data, including features like solar, wind, nuclear, coal, and biomass generation to predict the next 6 hours of 
 electricity demand, enabling better energy management and grid stability.
 
 ## 🚀 Objectives
@@ -74,14 +72,12 @@ electricity demand, enabling better energy management and grid stability.
   Flattened output layer for 6-hour prediction
 
 ## 📈 Model Evaluation
-  
-  Metric	                   LSTM Model	                         Transformer Model
-   
-  R²	                         0.8539	                              0.8658
-   
-  MAE	                         0.0405           	                  0.0380
-    
-  RMSE	                       0.0576                               0.0552
+
+| **Metric** | **LSTM Model** | **Transformer Model** |
+|------------|----------------|------------------------|
+| R² Score   | 0.8539         | 0.8658                 |
+| MAE        | 0.0405         | 0.0380                 |
+| RMSE       | 0.0576         | 0.0552                 |
 
 ## 📊 Visualizations
 
