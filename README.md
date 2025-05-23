@@ -9,15 +9,15 @@
   <img src="https://img.shields.io/badge/Model-LSTM%20%7C%20Transformer-green?style=flat-square" /> 
 </div>
 
-### 📝 Project Summary
+## 📝 Project Summary
 
-  This project focuses on multi-step forecasting of electricity consumption using deep learning models such as LSTM (Long Short-Term Memory) and Transformer 
+✅  This project focuses on multi-step forecasting of electricity consumption using deep learning models such as LSTM (Long Short-Term Memory) and Transformer 
 
 networks. It leverages hourly power grid data, including features like solar, wind, nuclear, coal, and biomass generation to predict the next 6 hours of 
 
 electricity demand, enabling better energy management and grid stability.
 
-### 🚀 Objectives
+## 🚀 Objectives
 
 📊 Forecast electricity consumption 6 hours ahead using past 24-hour historical data.
 
@@ -25,7 +25,7 @@ electricity demand, enabling better energy management and grid stability.
 
 🔁 Evaluate model performance using R², MAE, and RMSE for robust comparison and selection.
 
-### 🔧 Tools & Technologies
+## 🔧 Tools & Technologies
 
 🐍 Python 3.12.7
 
@@ -43,7 +43,7 @@ electricity demand, enabling better energy management and grid stability.
 
 🌐 Streamlit for interactive web app deployment
 
-### 📉 Feature Engineering Highlights
+## 📉 Feature Engineering Highlights
   
   ⏱️ Time-based features: hour, dayofweek, is_weekend, month
   
@@ -53,7 +53,7 @@ electricity demand, enabling better energy management and grid stability.
   
   🔄 Sequence generation for supervised learning using past 24 hours to predict next 6 hours
 
-### 🧠 Model Architecture
+## 🧠 Model Architecture
   
  ### ✅ LSTM Model
   
@@ -73,27 +73,40 @@ electricity demand, enabling better energy management and grid stability.
     
   Flattened output layer for 6-hour prediction
 
-### 📈 Model Evaluation
+## 📈 Model Evaluation
   
-  Metric	    LSTM Model	     Transformer Model
+  Metric	                   LSTM Model	                         Transformer Model
    
-  R²	         0.8539	            0.8658
+  R²	                         0.8539	                              0.8658
    
-  MAE	         0.0405           	0.0380
+  MAE	                         0.0405           	                  0.0380
     
-  RMSE	       0.0576             0.0552
+  RMSE	                       0.0576                               0.0552
 
-### 📊 Visualizations
+## 📊 Visualizations
 
-Multi-step Forecast Plot
+### Multi-step Forecast Plot
 
 <p align="center"> <img src="assets/multistep_forecast.png" alt="Multi-step Forecast" width="700"> </p>
 
-Training and Validation Loss
+
+
+
+
+
+
+### Training and Validation Loss
 
 <p align="center"> <img src="assets/loss_curves.png" alt="Loss Curves" width="700"> </p>
 
-### 📌 Key Takeaways
+
+
+
+
+
+
+
+## 📌 Key Takeaways
    
    📈 Multi-step forecasting is essential for grid stability and energy demand management.
    
@@ -101,11 +114,11 @@ Training and Validation Loss
    
    🧠 Deep learning is highly effective in modeling complex temporal dependencies in power systems.
 
-### 🌐 Streamlit Web App
+## 🌐 Streamlit Web App
 
 An interactive Streamlit dashboard was developed for real-time visualization and multi-step electricity demand forecasting using LSTM and Transformer models.
 
-### 🔍 Features
+## 🔍 Features
 
 📈 Upload and visualize new electricity consumption data.
 
@@ -115,7 +128,7 @@ An interactive Streamlit dashboard was developed for real-time visualization and
 
 📉 Metrics panel showing MAE, RMSE, and R² Score for model evaluation.
 
-### 🛠 How It Works
+## 🛠 How It Works
 
 Developed using Streamlit integrated with Jupyter Notebook-trained models.
 
@@ -127,7 +140,7 @@ Backend prediction uses saved .keras model weights and MinMaxScaler for consiste
 
 ⚠️ The live deployment is not hosted online. However, the Streamlit code is fully functional and can be run locally.
 
-### 🔧 Run Locally
+## 🔧 Run Locally
 
 ```bash
 cd streamlit_app (location where the app.py is created)
