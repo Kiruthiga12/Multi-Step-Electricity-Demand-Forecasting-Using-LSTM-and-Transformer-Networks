@@ -1,6 +1,8 @@
 streamlit
-tensorflow
+tensorflow>=2.9.0
 scikit-learn
 numpy
 pandas
 matplotlib
+torch
+transformers
